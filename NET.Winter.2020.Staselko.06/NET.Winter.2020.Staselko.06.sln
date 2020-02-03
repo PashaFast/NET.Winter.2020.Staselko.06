@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransformerToWords", "TransformerToWords\TransformerToWords.csproj", "{A6C968E7-1731-4720-8F6B-0E9B8AA0E77D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransformerToWords", "TransformerToWords\TransformerToWords.csproj", "{A6C968E7-1731-4720-8F6B-0E9B8AA0E77D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransformerToWords.Tests", "TransformerToWords.Tests\TransformerToWords.Tests.csproj", "{1E39B431-C476-41EE-9D43-6361D8CA84B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransformerToWords.Tests", "TransformerToWords.Tests\TransformerToWords.Tests.csproj", "{1E39B431-C476-41EE-9D43-6361D8CA84B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilterArrayByKeyWithPartial", "FilterArrayByKeyWithPartial\FilterArrayByKeyWithPartial.csproj", "{B88166AE-580B-416C-AC76-184FCD511842}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilterArrayByPolindrom", "FilterArrayByPolindrom\FilterArrayByPolindrom.csproj", "{F2ACD82F-BF41-41B5-B5EF-67DAB85F768F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilterArrayByKeyWithPartial.Tests", "FilterArrayByKeyWithPartial.Tests\FilterArrayByKeyWithPartial.Tests.csproj", "{E4ACE1CE-135C-473E-AE09-640503688A9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterArrayByPolindrom.Tests", "FilterArrayByPolindromTests\FilterArrayByPolindrom.Tests.csproj", "{0CD71495-2000-4216-829D-8F447FE6C528}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{1E39B431-C476-41EE-9D43-6361D8CA84B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E39B431-C476-41EE-9D43-6361D8CA84B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E39B431-C476-41EE-9D43-6361D8CA84B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B88166AE-580B-416C-AC76-184FCD511842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88166AE-580B-416C-AC76-184FCD511842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88166AE-580B-416C-AC76-184FCD511842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88166AE-580B-416C-AC76-184FCD511842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2ACD82F-BF41-41B5-B5EF-67DAB85F768F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2ACD82F-BF41-41B5-B5EF-67DAB85F768F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2ACD82F-BF41-41B5-B5EF-67DAB85F768F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2ACD82F-BF41-41B5-B5EF-67DAB85F768F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4ACE1CE-135C-473E-AE09-640503688A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4ACE1CE-135C-473E-AE09-640503688A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4ACE1CE-135C-473E-AE09-640503688A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4ACE1CE-135C-473E-AE09-640503688A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD71495-2000-4216-829D-8F447FE6C528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD71495-2000-4216-829D-8F447FE6C528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD71495-2000-4216-829D-8F447FE6C528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD71495-2000-4216-829D-8F447FE6C528}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
