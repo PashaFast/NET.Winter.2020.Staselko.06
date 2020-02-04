@@ -36,8 +36,8 @@ namespace FilterArrayByKeyWithPartial.Tests
         [Test]
         public void FilterArrayByKey_WithNegativeDigit_ArgumentOutOfRangeException()
         {
-            Digit = -1;
-            Assert.Throws<ArgumentOutOfRangeException>(() => FilterArrayByKey(new int[] { 1, 2 }),
+            //Digit = -1;
+            Assert.Throws<ArgumentOutOfRangeException>(() => Digit = -1,
                 message: "digit must be >=0 and <=9");
 
         }
